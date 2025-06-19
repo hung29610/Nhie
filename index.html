@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tỏ Tình Crush</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <audio id="bgMusic" loop>
+    <source src="./music.mp3" type="audio/mp3" />
+  </audio>
+
+  <div id="intro" class="active">
+    <button id="startBtn">
+      Mình có điều muốn nói<br/>Nhấn vào đây đi
+    </button>
+  </div>
+
+  <div id="mainContent">
+    <div id="line"></div>
+
+    <div id="final" class="final">
+      <p>Nhi đồng ý làm người yêu Mình nhaaa!!! 💖</p>
+      <div class="button-group">
+        <button id="btnYes">Đồng ý</button>
+        <button id="btnNo">Không</button>
+      </div>
+    </div>
+
+    <div id="msgYes" class="yesContent">
+      <h1>Cảm ơn Nhi đã đồng ý!</h1>
+      <div class="gif_container">
+        <img
+          src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmo3c3l5ODh3ZGN6NHhhaDE2Mjg1ZjkwOXczdTFxbWM3dTBtaW9zaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/9XY4f3FgFTT4QlaYqa/giphy.gif"
+          alt="Cute Gif" />
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
