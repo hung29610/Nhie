@@ -9,13 +9,18 @@ document.addEventListener('DOMContentLoaded', function () {
   const btnNo = document.getElementById('btnNo');
 
   const lines = [
-    "Từ lần đầu gặp Nhi, mình đã biết tim mình không ổn.",
-    "Mỗi tin nhắn từ cậu làm tim mình rung lên từng nhịp.",
-    "Mình đã nghĩ mãi… liệu có nên nói điều này không.",
-    "Nhưng nếu không nói thì sẽ tiếc cả đời.",
-    "Nên hôm nay, mình quyết định nói ra...",
-    "Hùng thích Nhi !"
-  ];
+  "Mình biết làm cái này thì cũng hơi trẩu thật , nhưng.."
+  "..nếu không làm cái này thì nhắn qua những dòng tin nhắn thì nó quá bình thường"
+  "Nên mình đã làm cái này để dành cho cậu. Xem nha:"
+  "Nhi nè,",
+  "Mình suy nghĩ rất nhiều mới dám nhắn tin này.",
+  "Thật ra, từ lâu rồi mình đã có cảm tình với cậu.",
+  "Mỗi lần nói chuyện với Nhi, mình đều thấy rất vui.",
+  "Cảm giác đó ngày càng rõ ràng hơn theo thời gian.",
+  "Mình không biết Nhi có cảm nhận được không nữa.",
+  "Nhưng hôm nay, mình muốn nói ra thật lòng mình.",
+  "Hùng thích Nhi 💗"
+];
 
   let currentLine = 0;
 
